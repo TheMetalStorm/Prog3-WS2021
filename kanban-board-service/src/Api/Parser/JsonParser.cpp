@@ -15,6 +15,7 @@ string JsonParser::convertToApiString(Board &board) {
     throw NotImplementedException();
 }
 
+//for ○ POST /api/board/columns
 string JsonParser::convertToApiString(Column &column) {
     throw NotImplementedException();
 }
@@ -23,6 +24,7 @@ string JsonParser::convertToApiString(std::vector<Column> &columns) {
     throw NotImplementedException();
 }
 
+//for ○ POST /api/board/columns/{columnId}/items
 string JsonParser::convertToApiString(Item &item) {
     throw NotImplementedException();
 }

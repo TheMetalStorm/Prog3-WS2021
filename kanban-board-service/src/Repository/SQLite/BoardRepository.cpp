@@ -77,6 +77,7 @@ std::optional<Column> BoardRepository::getColumn(int id) {
 }
 
 std::optional<Column> BoardRepository::postColumn(std::string name, int position) {
+
     throw NotImplementedException();
 }
 
